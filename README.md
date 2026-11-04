@@ -4,28 +4,11 @@ A full-stack restaurant website for RK Restaurant in Kakinada. It includes the r
 
 ## Local images
 
-Place the supplied restaurant photographs in `assets/images/` using these exact names:
-
-- `hero-food.jpg`
-- `special-biryani.jpg`
-- `gidda-massore.jpg`
-- `village-biryani.jpg`
-- `abu-dhabi-fish.jpg`
-- `chicken.jpg`
-- `chicken-65.jpg`
-- `basmati-biryani.jpg`
-- `restaurant-interior.jpg`
-- `restaurant-exterior.jpg`
-
-Menu-card images can be added manually in `assets/images/menu/` using the lowercase kebab-case paths in the `image` field of `js/script.js`, for example `assets/images/menu/veg-sweet-corn.jpg`. Missing menu images intentionally remain as styled placeholders and never show broken-image icons.
-
-Optional homepage and gallery images can be added manually at `assets/images/hero-food.jpg` and `assets/images/gallery/` using the filenames configured in `index.html` and `js/script.js`. Missing images use the same styled fallback.
-
-Until then, the site displays designed placeholder blocks and never shows broken image icons.
+Nineteen AI-generated food, hero and dining-ambience photos are stored locally in `assets/images/` and `assets/images/menu/` (generated with Pollinations.ai). Menu cards and customer favourites use 15 category-matched paths in `categoryImagePaths` in `js/script.js`; gallery food entries reuse those photos. Restaurant exterior and interior scenes are illustrative concepts, not photographs of the actual premises.
 
 ## Updating the menu
 
-Edit the `menuItems` array at the top of `js/script.js`. The 56 supplied menu-card items are included without duplicate names; the two matching existing items retain their original website prices.
+Edit the `menuItems` array at the top of `js/script.js`. The supplied menu-card items are included without duplicate names, and existing website prices are retained.
 
 ## Run locally
 
